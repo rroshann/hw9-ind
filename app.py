@@ -68,7 +68,7 @@ class MovieKNN:
 
 
 # Load and prepare data
-df = pd.read_csv('movies.csv')
+df = pd.read_csv('./movies.csv')
 knn = MovieKNN(k=4)
 knn.prepare_features(df)
 
